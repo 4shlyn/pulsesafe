@@ -22,9 +22,12 @@ console.log(`Connected to Database: ${db.databaseName}`);
 var accounts = db.collection('accounts');
 console.log(`Connected to Collection: ${accounts.collectionName}`);
 
-app.get('/', (req, res) => {
-  res.send('Hello World');
-});
+app.get('/distance', async (req, res) => {
+    accounts.createIndex( { loc: "2dsphere" } );
+    const list = await distance(req.body);
+    res.send(list);
+    return;
+  })
 
 app.post('/post/signup', async (req, res, next) => {
   console.log('req=', req.body);
@@ -77,6 +80,11 @@ async function login(email, password) {
     console.log('Login Successful!');
     return 1;
   }
+}
+
+async function distance(email){
+    const list = await accounts.find({ loc: { $near: { $geometry: { type: "Point" , coordinates: [ 41.7855 , 72.9842 ] }, }}});
+    return list;
 }
 
 app.get("/api", (req, res) => {
