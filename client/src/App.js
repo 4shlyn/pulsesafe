@@ -5,6 +5,7 @@ import LoginPage from './loginpage';
 import SignupPage from './signuppage';
 import UserOverview from './useroverview';
 import EnrollPage from './enroll';
+import MapPage from './mappage';
 
 function App() {
   return (
