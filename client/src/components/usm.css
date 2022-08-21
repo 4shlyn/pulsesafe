@@ -1,0 +1,168 @@
+.header-boiler{
+    margin-top:30px;
+    text-align:left;
+    margin-left:70px;
+    font-family:'Roboto',serif;
+    font-size:24px;
+    color:#763131;
+    font-weight:900;
+    font-size:34px;
+    width:240px;
+    
+}
+
+.right-line{
+    margin-top:-15px;
+    margin-right:-52px;
+}
+
+.user-name-start{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-top:16px;
+    
+}
+.pfp{
+    margin-left:30px;
+}
+
+.user-full-name{
+    font-family:'Roboto',sans-serif;
+    color:#763131;
+    font-size:22px;
+    margin-left:12px;
+}
+
+.contact-info{
+    display:flex;
+    gap:15px;
+    margin-top:8px;
+    margin-left:5px;
+}
+.contact-info div{
+    font-family:'Roboto',sans-serif;
+    color:#763131;
+    font-weight:600;
+    font-size:14px;
+    margin-left:12px;
+}
+.contact-info img{
+    margin-right:none;
+
+}
+
+.user-header-nl{
+    display:flex;
+    align-items:center;
+}
+
+.questionmark{
+    margin-top:30px;
+
+}
+.lgrey{
+    background:#EAEAEA;
+    height:89px;
+    display:flex;
+    align-items:center;
+    margin-top:10px;
+}
+
+.sqr-icon{
+    background:#D9D9D9;
+    height:43px;
+    width:77px;
+    margin-left:20px;
+}
+
+
+.sqr-icon2{
+    background:#EAEAEA;
+    height:43px;
+    width:77px;
+    margin-left:20px;
+}
+#emailtext{
+    color:#763131;
+    margin-left:15px;
+}
+#phonetext{
+    color:#763131;
+    margin-left:15px;
+}
+
+.llight{
+    background:#F6F5F5;
+    height:89px;
+    display:flex;
+    align-items:center;
+}
+
+#statReAlign{
+    margin-left:40px;
+}
+
+#fitbit-connect-stat{
+    color:#763131;
+    margin-left:20px;
+}
+
+#rightarrow{
+    margin-left:140px;
+}
+
+.container-nav-bot{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+    align-items:flex-end;
+    margin-top:20px;
+    /* border:rgb(26, 126, 101) 2px solid; */
+    
+}
+
+
+.greylinesep{
+    margin-top:10px;
+}
+
+#editcontain{
+    display:flex;
+    justify-content:center;
+
+}
+
+#editcontain div{
+    background:#763131;
+    width:228px;
+    height:40px;
+    margin-top:10px;
+    color:#eeeeee;
+    font-family:'Roboto',sans-serif;
+    text-align:center;
+    padding-top:18px;
+}
+#preface-enroll{
+    color:#763131;
+    font-family:'Roboto',sans-serif;
+    width:268px;
+    text-align:center;
+    font-size:17px;
+    letter-spacing: 0.2px;
+    line-height:25px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    /* border:green 2px solid; */
+    margin-right:18px;
+    margin-top:20px;
+}
+#barcontainer2{
+    margin-top:85px;
+    /* border:rgb(101, 26, 126) 4px solid; */
+}

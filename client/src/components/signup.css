@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.input-signup{
+    /* border:2px red solid; */
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:10px;
+}
+.pass-confirm{
+    /* border:2px red solid; */
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:10px;
+}
+
+input{
+    height:60px;
+    width:280px;
+    font-family:'Roboto',sans-serif;
+    color:#736f6f;
+    border:none;
+    box-shadow: 5px 5px 5px #d0d0d0;
+    border-radius:7px;
+    
+
+
+}
+
+input::placeholder {
+    color:#B6ADAD;
+    padding-left:10px;
+}
+
+
+.signup-header{
+    margin-top:30px;
+    text-align:left;
+    margin-left:50px;
+    font-family:'Roboto',serif;
+    font-size:24px;
+    color:#A09A9A;
+    
+}
+.SignUpButton input{
+    background:#763131;
+    color:#F6F5F5;
+    font-family:'Roboto',sans-serif;
+    font-size:15px;
+    margin-top:12px;
+}
+
+
+.noacctext{
+    color:#9C7F7F;
+    margin-top:7px;
+    font-size:14px;
+    font-family:'Roboto', sans-serif;
+}
+.signup-redirect{
+    /* text-decoration:none; */
+    color:#763131
+
+}
+
+
+.checkbox-tc{
+    height:15px;
+    width:15px;
+    box-shadow:none;
+
+
+}
+
+
+.ctc-parent{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    margin-top:60px;
+    margin-left:45px;
+    font-family:'Roboto',sans-serif;
+    font-size:14px;
+    color:#9C7F7F;
+}
+a{
+    color:#9C7F7F;
+}

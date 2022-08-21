@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.input-login{
+    /* border:2px red solid; */
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:10px;
+}
+.pass-confirm{
+    /* border:2px red solid; */
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:10px;
+}
+
+input{
+    height:60px;
+    width:280px;
+    font-family:'Roboto',sans-serif;
+    color:#736f6f;
+    border:none;
+    box-shadow: 5px 5px 5px #d0d0d0;
+    border-radius:7px;
+    
+
+
+}
+
+input::placeholder {
+    color:#B6ADAD;
+    text-indent:5px;
+
+}
+input{
+    text-indent:15px;
+}
+
+
+.login-header{
+    margin-top:30px;
+    text-align:left;
+    margin-left:50px;
+    font-family:'Roboto',serif;
+    font-size:24px;
+    color:#A09A9A;
+    
+}
+
+.SigninButton{
+    margin-top:100px;
+}
+.SigninButton input{
+    background:#763131;
+    color:#F6F5F5;
+    font-family:'Roboto',sans-serif;
+    font-size:15px;
+}
+
+
+.noacctext{
+    color:#9C7F7F;
+    margin-top:7px;
+    font-size:14px;
+    font-family:'Roboto', sans-serif;
+}
+.signup-redirect{
+    /* text-decoration:none; */
+    color:#763131
+
+}
+
+
+.logo-login{
+    margin-top:50px;
+}
+
+.left-line{
+    margin-left:-53px;
+}
+
+.headerthing-signup{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    /* border:red solid 3px; */
+}
+
+.left-arrow{
+    margin-right:50px;
+    margin-top:55px;
+    margin-left:5px;
+}
