@@ -5,9 +5,9 @@ app.use(express.json())
 var hrmData = 'empty'
 
 
-const client = require('twilio')(
-    process.env.TWILIO_ACCOUNT_SID,
-    process.env.TWILIO_AUTH_TOKEN);
+//const client = require('twilio')(
+  //  process.env.TWILIO_ACCOUNT_SID,
+    //process.env.TWILIO_AUTH_TOKEN);
 
 const alert = "Hello, at x, there is y.";
 const sendto = "+14169072853";

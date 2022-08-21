@@ -1,6 +1,6 @@
 .header-boiler{
     margin-top:30px;
-    text-align:left;
+    text-align:center;
     margin-left:70px;
     font-family:'Roboto',serif;
     font-size:24px;
@@ -165,4 +165,32 @@
 #barcontainer2{
     margin-top:85px;
     /* border:rgb(101, 26, 126) 4px solid; */
+}
+
+#alerterinfo-container{
+    /* border:red 2px solid; */
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+    font-family:'Roboto',sans-serif;
+    color:#947777;
+    font-size:15px;
+    gap:10px;
+    font-style:italic;
+    margin-top:-90px;
+}
+
+#alerterinfo-container div{
+    margin-left:20px;
+}
+
+#mapholder{
+    height:333px;
+    margin-top:20px;
+    border:green 2px solid;
+}
+#alertboxthing{
+    margin-left:-100px;
+    margin-top:6px;
 }
