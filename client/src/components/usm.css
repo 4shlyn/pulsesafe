@@ -147,10 +147,12 @@
     color:#763131;
     font-family:'Roboto',sans-serif;
     width:268px;
+    height:263px;
     text-align:center;
     font-size:17px;
     letter-spacing: 0.2px;
     line-height:25px;
+    /* border:red 2px solid; */
 }
 
 .container{
@@ -186,11 +188,15 @@
 }
 
 #mapholder{
-    height:333px;
-    margin-top:20px;
+    height:330px;
+    margin-top:70px;
     border:green 2px solid;
 }
 #alertboxthing{
     margin-left:-100px;
     margin-top:6px;
+}
+
+.okaymap{
+    margin-top:60px;
 }
