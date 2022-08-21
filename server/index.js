@@ -4,9 +4,11 @@ const port = 3001
 app.use(express.json())
 var hrmData = 'empty'
 
-const accountSid = "AC4d4a48210f88994088a7838129f2a335"
-const authToken = "b3f5d4e9ff3a621588400ef622875181"
-const client = require('twilio')(accountSid,authToken);
+
+const client = require('twilio')(
+    process.env.TWILIO_ACCOUNT_SID,
+    process.env.TWILIO_AUTH_TOKEN);
+
 const alert = "Hello, at x, there is y.";
 const sendto = "+14169072853";
 
