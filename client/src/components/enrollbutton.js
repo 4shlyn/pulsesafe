@@ -4,7 +4,7 @@ const EnrollButton = () => {
     return ( 
     <div className="contact-info">
         <div className="container">
-        <img src={Button} alt="Begin Application"/>
+        <img src={Button} alt="Applications Closed"/>
         </div>
     </div>
      );
