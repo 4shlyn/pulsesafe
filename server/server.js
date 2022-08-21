@@ -1,9 +1,11 @@
 import express from 'express';
 import { MongoClient, ServerApiVersion } from 'mongodb';
 import cors from 'cors';
+const PORT = 3001
 const app = express();
 app.use(express.json());
 app.use(cors());
+var hrmData = 'empty'
 
 const uri =
   'mongodb+srv://ht6-22:Tronno321@pulserthing.an139lu.mongodb.net/?retryWrites=true&w=majority';
@@ -77,6 +79,25 @@ async function login(email, password) {
   }
 }
 
-app.listen(3001, () => {
+app.get("/api", (req, res) => {
+  if(hrmData !== 'empty'){
+    res.json({ message: `Alert! Help needed! HR ${hrmData}` });
+  }
+  else{
+    res.json({ message: "No current nearby alerts." });
+  }
+});
+
+app.post('/heart-rate', (req, res) => {
+  const currentHRM = req.body
+  var startIndex = currentHRM["heartrate"].indexOf(":")+1
+  var endIndex = currentHRM["heartrate"].indexOf("}")
+  hrmData = currentHRM["heartrate"].substring(startIndex, endIndex)
+  console.log(hrmData)
+  
+  res.json({ requestBody: req.body })
+})
+
+app.listen(PORT, () => {
   console.log(`Express is listening on localhost 3000`);
 });
