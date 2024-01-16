@@ -28,7 +28,4 @@ One of the initial challenges was coding on FitbitOS using Fitbit’s documentat
 - Express.js, Node.js, MongoDB
 - Fitbit Companion API, Fitbit Device API, Twilio, ngrok
 
-## Contributors
-
-
 
