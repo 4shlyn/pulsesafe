@@ -1,5 +1,9 @@
 # PulseSafe
 
+## Demonstration
+
+[Demonstration](https://www.youtube.com/watch?v=kHKq8fa2c4o)
+
 ## Inspiration
 
 Cardiovascular diseases are the leading cause of death globally. One in five deaths is a heart attack, and performing CPR immediately can greatly improve these odds. However, ambulances may only arrive so fast. PulseSafe aims to quickly help those in need by alerting nearby individuals with first-aid training of the incident.
@@ -18,12 +22,12 @@ PulseSafe monitors real-time heart rate and input data on a smartwatch, allowing
 
 One of the initial challenges was coding on FitbitOS using Fitbit’s documentation, carefully studied to program the app for the watch. The platform's simulator limitations for handling API calls like an actual smartwatch restricted testing. Sending data from the watch sensor to a server posed challenges with unhelpful error messages. Learning the MERN stack, chosen for compatibility with FitbitOS, was a hurdle for the team due to lack of prior experience. Git challenges led to multiple repository copies.
 
-
----
-
 ## Techstack
 - React, Javascript, HTML, CSS, Figma
 - Express.js, Node.js, MongoDB
 - Fitbit Companion API, Fitbit Device API, Twilio, ngrok
+
+## Contributors
+
 
 
